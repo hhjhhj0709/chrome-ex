@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "멍청이를 위한 맞춤법 검사기",
+    "version": "1.0",
+    "description": "멍청이 님 어서오세요.",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+  
